@@ -1,0 +1,24 @@
+hi santhosh LogicalID:
+  Type: AWS::Backup::ReportPlan
+  Properties:
+    ReportDeliveryChannel:
+      Formats:
+        -
+      S3BucketName: "String"
+      S3KeyPrefix: "String"
+    ReportPlanDescription: "String"
+    ReportPlanName: "String"
+    ReportPlanTags: 
+      ReportPlanTags
+    ReportSetting:
+      Accounts:
+        -
+      FrameworkArns:
+        -
+      OrganizationUnits:
+        -shell-scripting-projects
+      Regions:
+        -
+      ReportTemplate: "String"
+
+    
